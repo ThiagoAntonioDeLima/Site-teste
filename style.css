@@ -11,6 +11,9 @@ mark{background-color: rgb(196, 196, 196);font-family: Cambria, Cochin, Georgia,
 main{
  height: auto; width: 1200px; background-color: rgb(255, 255, 255);padding: 10px;margin: auto;
 }
+a{
+    text-decoration: none;
+}
 .pagina{
     color: black;
     height: 20px;
