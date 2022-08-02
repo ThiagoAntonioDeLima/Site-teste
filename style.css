@@ -26,5 +26,5 @@ a:hover{
     color: rgb(0, 0, 0);
 }
 #isso{
-    background-color: rgba(63, 63, 63, 0);height: 40px;width: 1200px;
+    background-color: rgba(63, 63, 63, 0);width: 1200px;padding: auto 0;
 }
