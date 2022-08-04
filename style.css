@@ -14,7 +14,7 @@ nav{
 a#nav:hover{
     text-decoration: underline;
 }
-footer{background-color: rgb(63, 63, 63);height: 40px;width: auto; margin-right: auto;margin-top: 5px;margin-left: auto;margin-bottom: 5px;font-size: 20px;
+footer{background-color: rgb(63, 63, 63);height: 40px;width: auto; margin-right: auto;margin-top: 5px;margin-left: auto;margin-bottom: 5px;font-size: 23px;
 }
 p{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: gray;}
 h3{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: gray; }
@@ -58,4 +58,7 @@ section{
 }
 #audiovideo{
     text-align: center;
+}
+#caracter{
+    margin: 20px;
 }
