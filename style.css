@@ -14,6 +14,7 @@
     --cor2: #848484;
     --cor3: #6a6a6a;
     --cor4: #2f2f2f;
+    --cor5: #3a3a3a;
     --fonte1: Arial, Verdana, Helvetica, sans-serif;
     --fonte2: 'Bebas Neue', cursive;
     --fonte3: 'android', cursive
@@ -56,11 +57,18 @@ main{
     background-color: white;
     margin: auto;
     border-radius: 10px;
+    min-height: 400px;
 }
 section{
-    background-color: var(--cor3);
-    margin: 0px;
+    background-color: var(--cor5);
+    margin: 10px 0px 3px ;
     padding: 5px;
+    color: white;
+    text-align: center;
+}
+hr{
+    height: 5px;
+    background-color: var(--cor5);
 }
 article{
     max-width: 1000px;
@@ -87,6 +95,9 @@ h1{
 }
 h2{
     margin: 5px;
+    text-align: center;
+    background-color: var(--cor1);
+    margin: 10px 0px;
 }
 h3{
     margin: 5px;
@@ -96,4 +107,20 @@ footer{
     padding: auto;
     height: 20px;
     text-align: center;
+    color: white;
+}
+footer a{
+    text-decoration: nome;
+    color: white;
+}
+.premio{
+    text-align: center;
+    padding-top: 10em;
+}
+footer a:hover::after{
+    content: " GitHub";
+    color: #a9a9a9;
+}
+main img{
+    
 }
