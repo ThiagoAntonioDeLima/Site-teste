@@ -55,6 +55,7 @@ main{
     min-width: 300px;
     background-color: white;
     margin: auto;
+    border-radius: 10px;
 }
 section{
     background-color: var(--cor3);
@@ -89,4 +90,10 @@ h2{
 }
 h3{
     margin: 5px;
+}
+footer{
+    background-color: var(--cor4);
+    padding: auto;
+    height: 20px;
+    text-align: center;
 }
